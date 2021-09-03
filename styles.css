@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+:root {
+  --back-color-dark: rgb(219, 4, 4);
+  --text-color: #eef2ff;
+}
+html {
+  min-height: 100%;
+}
+body {
+  /* background-color: var(--back-color-dark); */
+  background-image: linear-gradient(rgb(219, 4, 4), #d77474);
+  font-family: "Work Sans", sans-serif;
+  color: var(--text-color);
+  width: 100%;
+  margin: auto;
+}
+nav {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+}
+.brand-logo {
+  display: block;
+  margin: auto;
+  width: 250px;
+}
+.brand-name {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.brand-detail {
+  display: block;
+  margin: auto;
+  width: 100%;
+  font-size: 1.1rem;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+  padding: 2rem 1rem;
+}
+.input-field {
+  box-sizing: border-box;
+  outline: none;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  height: 20vh;
+  resize: none;
+  text-align: justify;
+}
+.translate {
+  font-family: "Work Sans", sans-serif;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  background-color: black;
+  color: var(--text-color);
+  border: none;
+  font-size: 1.1rem;
+}
+.translate:hover {
+  background-color: gray;
+}
+.output-field {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: justify;
+  padding: 0.5rem;
+}
